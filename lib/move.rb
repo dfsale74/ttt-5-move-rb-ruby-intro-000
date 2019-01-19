@@ -6,5 +6,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-integer = "1" - "9"
-def input_to_integer(integer)
+user_input = "1" - "9"
+def input_to_index(user_input)
+  puts(user.input).to_i
